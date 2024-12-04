@@ -14,5 +14,7 @@ spec:
       containers:
       - name: nginx
         image: zuapanzo/docker-treino:latest
+        resources:
         ports:
         - containerPort: 80
+
